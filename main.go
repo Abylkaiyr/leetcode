@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(problems.IsPalindrome(125))
+	fmt.Println(problems.LongestCommonPrefix(["Hello"]))
 }
