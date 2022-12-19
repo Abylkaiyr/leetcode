@@ -1,12 +1,6 @@
-package main
+package problems
 
-import "fmt"
-
-func main() {
-	fmt.Println(isPalindrome(-121))
-}
-
-func isPalindrome(x int) bool {
+func IsPalindrome(x int) bool {
 	var zeroVal int = x
 	act := 0
 	for x > 0 {
